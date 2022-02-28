@@ -1,84 +1,85 @@
 /*@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 400; 700 & display = swap');*/
 
 :root {
-  --primary-color: rgb(13, 106, 134);
-  --primary-color-darker: rgba(9, 48, 56)
+    --primary-color: rgb(13, 106, 134);
+    --primary-color-darker: rgba(9, 48, 56)
 }
 
 * {
-  box-sizing: border-box;
-  outline: 0;
+    box-sizing: border-box;
+    outline: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--primary-color);
-  font-family: 'Open sans', sans-serif;
-  font-size: 1.3em;
-  line-height: 1.5em;
-
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
 }
 
 .container {
- display: flex;
- flex-direction: column;
-  max-width: 640px;
-  margin: 20px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.container h1{
-  align-self: center;
+.container h1 {
+    align-self: center;
 }
 
-.historico {
-
-  align-items: center;
-  
+.divHistorico {
+    display: flex;
+    flex-direction: column;
 }
 
-.box1{
-  display:flex;
-  justify-content: space-around;
-  max-width: 640px;
-  margin: 0 auto;
-  background: #fff;
-  padding-bottom: 0;
-  border-radius: 10px;
+#gHistorico {
+    justify-content: center;
 }
 
-.box2{
-  margin:0 50px;
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 0;
+    border-radius: 10px;
 }
 
-
-ul{
-  margin: 0 0 10px;
-  padding: 0;
+.box2 {
+    margin: 0 50px;
 }
 
+ul {
+    margin: 0 0 10px;
+    padding: 0;
+}
 
-form input, form label, form button{
-    display:block;
+form input,
+form label,
+form button {
+    display: block;
     width: 100%;
     margin-bottom: 10px;
 }
 
-form input{
+form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
 }
 
-form input:focus{
+form input:focus {
     outline: 1px solid var(--primary-color);
-
 }
 
-form button{
+form button {
     border: none;
     background: var(--primary-color);
     color: #fff;
@@ -89,22 +90,20 @@ form button{
     margin-top: 30px;
 }
 
-form button:hover{
+form button:hover {
     background: var(--primary-color-darker);
 }
 
-form button:active{
+form button:active {
     background: rgb(15, 190, 202)
-
-
 }
 
-.paragrafo-resultado{
-  background: rgb(109, 255, 182);
-  padding: 10px 20px
+.paragrafo-resultado {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px
 }
 
 .bad {
-  background: rgb(240, 135, 135);
-  padding: 10px 20px
+    background: rgb(240, 135, 135);
+    padding: 10px 20px
 }
