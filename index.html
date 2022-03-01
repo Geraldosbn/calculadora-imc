@@ -40,22 +40,27 @@
 
         <form id="form" action="/" method="post">
             <label for="peso">Peso:</label>
-            <input type="text" id="peso" name="peso">
+            <input type="text" id="peso" name="peso" required>
 
             <label for="Altura">Altura:</label>
-            <input type="text" id="altura" name="altura">
+            <input type="text" id="altura" name="altura" required>
             <button type="submit">Calcular</button>
 
         </form>
 
         <div id="resultado"></div>
         
-        <div class="divHistorico">
-             <h1 class="titulo">Historico</h1>
-            <div class="guardaHisorico"></div>
+        <div id="divHistorico">
+             <h1>Historico</h1>
+                <table id="tbHistorico">
+                    <thead>
+                        <tr>
+                            <td>Código</td>
+                            <td>IMC</td>
+                            <td>Resultado</td>
+                        </tr>
+                </thead>
         </div>
-
-
     </section>
 
     <script src="./assets/js/main.js"></script>

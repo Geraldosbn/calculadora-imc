@@ -33,13 +33,17 @@ body {
     align-self: center;
 }
 
-.divHistorico {
+#divHistorico {
     display: flex;
     flex-direction: column;
 }
 
-#gHistorico {
-    justify-content: center;
+table td{
+    font-size: 20px;
+    width: 30%;
+    color: black;
+    border:solid 1px;
+    text-align: center;
 }
 
 .box1 {
